@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from "react";
-import LoginModal from "./LoginModal";
-
+import { Link } from "react-router-dom";
+import Logout from "./Logout";
+import { useAuth } from "../context/AuthProvider";
 function Navbar() {
+  const [authUser, setAuthUser] = useAuth();
+  console.log(authUser);
   // To toogle a dark and light theme
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
@@ -37,16 +40,16 @@ function Navbar() {
   const navItems = (
     <>
       <li className="hover:bg-slate-200 hover:text-black duration-200 rounded-lg">
-        <a href="/"> Home</a>
+        <Link to="/"> Home</Link>
       </li>
       <li className="hover:bg-slate-200 hover:text-black duration-200 rounded-lg">
-        <a>About</a>
+        <Link to="/about">About</Link>
       </li>
       <li className="hover:bg-slate-200 hover:text-black duration-200 rounded-lg">
-        <a href="/course">All Books</a>
+        <Link to="/course">All Books</Link>
       </li>
       <li className="hover:bg-slate-200 hover:text-black duration-200 rounded-lg">
-        <a>Contact</a>
+        <Link to="/contact">Contact</Link>
       </li>
     </>
   );
@@ -84,7 +87,7 @@ function Navbar() {
               </div>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 dark:bg-slate-900 dark:border"
+                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 dark:bg-slate-900 dark:border dark:text-white"
               >
                 {navItems}
               </ul>
@@ -134,13 +137,22 @@ function Navbar() {
               />
             </div>
 
-            <a
+            {/* <Link
               className=" bg-black p-2 text-white w-16 rounded-md hover:bg-slate-800 duration-200 cursor-pointer"
-              onClick={() => document.getElementById("my_modal_5").showModal()}
+              to="/login"
             >
               Login
-            </a>
-            <LoginModal />
+            </Link> */}
+            {authUser ? (
+              <Logout />
+            ) : (
+              <Link
+                className=" bg-black p-2 text-white w-16 rounded-md hover:bg-slate-800 duration-200 cursor-pointer"
+                to="/login"
+              >
+                Login
+              </Link>
+            )}
           </div>
         </div>
       </div>

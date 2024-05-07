@@ -1,7 +1,7 @@
 import React from "react";
-import list from "../../public/list.json";
+
 import Card from "./Card";
-function Course() {
+function Course({ list }) {
   const data = list.filter((item) => item.category != "Free");
   console.log(data);
   return (
