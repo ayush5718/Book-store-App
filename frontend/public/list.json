@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "name": "Adventure Book",
+        "title": "The Quest for Lost Treasure",
+        "price": 0,
+        "img": "https://img.freepik.com/free-vector/abstract-business-book-cover-template_23-2148726776.jpg?t=st=1714992676~exp=1714996276~hmac=3b366517528ab72ead15a8e92e7261475da57d9af842417917f0171ef8b16c4c&w=740",
+        "category": "Free"
+    },
+    {
+        "id": 2,
+        "name": "Fantasy Book",
+        "title": "Realm of the Dragons",
+        "price": 0,
+        "img": "https://img.freepik.com/free-vector/abstract-business-book-cover-template_23-2148726776.jpg?t=st=1714992676~exp=1714996276~hmac=3b366517528ab72ead15a8e92e7261475da57d9af842417917f0171ef8b16c4c&w=740",
+        "category": "Free"
+    },
+    {
+        "id": 3,
+        "name": "Mystery Book",
+        "title": "Whispers in the Shadows",
+        "price": 0,
+        "img": "https://img.freepik.com/free-vector/abstract-business-book-cover-template_23-2148726776.jpg?t=st=1714992676~exp=1714996276~hmac=3b366517528ab72ead15a8e92e7261475da57d9af842417917f0171ef8b16c4c&w=740",
+        "category": "Free"
+    },
+    {
+        "id": 4,
+        "name": "Romance Book",
+        "title": "Love Beyond Words",
+        "price":0,
+        "img":"https://img.freepik.com/free-vector/abstract-business-book-cover-template_23-2148726776.jpg?t=st=1714992676~exp=1714996276~hmac=3b366517528ab72ead15a8e92e7261475da57d9af842417917f0171ef8b16c4c&w=740",
+        "category": "Free"
+    },
+    {
+        "id": 5,
+        "name": "Sci-Fi Book",
+        "title": "Galactic Odyssey",
+        "price": 0,
+        "img": "https://img.freepik.com/free-vector/abstract-business-book-cover-template_23-2148726776.jpg?t=st=1714992676~exp=1714996276~hmac=3b366517528ab72ead15a8e92e7261475da57d9af842417917f0171ef8b16c4c&w=740",
+        "category": "Free"
+    },
+    {
+        "id": 6,
+        "name": "Horror Book",
+        "title": "Nightmare on Elm Street",
+        "price": 11.99,
+        "img": "https://img.freepik.com/free-vector/abstract-business-book-cover-template_23-2148726776.jpg?t=st=1714992676~exp=1714996276~hmac=3b366517528ab72ead15a8e92e7261475da57d9af842417917f0171ef8b16c4c&w=740",
+        "category": "Horror"
+    },
+    {
+        "id": 7,
+        "name": "Historical Fiction Book",
+        "title": "Echoes of the Past",
+        "price": 10.49,
+        "img": "https://img.freepik.com/free-vector/abstract-business-book-cover-template_23-2148726776.jpg?t=st=1714992676~exp=1714996276~hmac=3b366517528ab72ead15a8e92e7261475da57d9af842417917f0171ef8b16c4c&w=740",
+        "category": "Historical Fiction"
+    },
+    {
+        "id": 8,
+        "name": "Thriller Book",
+        "title": "The Edge of Darkness",
+        "price": 13.99,
+        "img": "https://img.freepik.com/free-vector/abstract-business-book-cover-template_23-2148726776.jpg?t=st=1714992676~exp=1714996276~hmac=3b366517528ab72ead15a8e92e7261475da57d9af842417917f0171ef8b16c4c&w=740",
+        "category": "Thriller"
+    },
+    {
+        "id": 9,
+        "name": "Biography Book",
+        "title": "Journey of a Legend",
+        "price": 9.49,
+        "img": "https://img.freepik.com/free-vector/abstract-business-book-cover-template_23-2148726776.jpg?t=st=1714992676~exp=1714996276~hmac=3b366517528ab72ead15a8e92e7261475da57d9af842417917f0171ef8b16c4c&w=740",
+        "category": "Biography"
+    },
+    {
+        "id": 10,
+        "name": "Self-Help Book",
+        "title": "The Power Within",
+        "price": 7.99,
+        "img": "https://img.freepik.com/free-vector/abstract-business-book-cover-template_23-2148726776.jpg?t=st=1714992676~exp=1714996276~hmac=3b366517528ab72ead15a8e92e7261475da57d9af842417917f0171ef8b16c4c&w=740",
+        "category": "Self-Help"
+    },
+    {
+        "id": 11,
+        "name": "Cookbook",
+        "title": "Flavors of the World",
+        "price": 14.49,
+        "img": "https://img.freepik.com/free-vector/abstract-business-book-cover-template_23-2148726776.jpg?t=st=1714992676~exp=1714996276~hmac=3b366517528ab72ead15a8e92e7261475da57d9af842417917f0171ef8b16c4c&w=740",
+        "category": "Cooking"
+    },
+    {
+        "id": 12,
+        "name": "Poetry Book",
+        "title": "Words of the Heart",
+        "price": 6.99,
+        "img":"https://img.freepik.com/free-vector/abstract-business-book-cover-template_23-2148726776.jpg?t=st=1714992676~exp=1714996276~hmac=3b366517528ab72ead15a8e92e7261475da57d9af842417917f0171ef8b16c4c&w=740",
+        "category": "Poetry"
+    },
+    {
+        "id": 13,
+        "name": "Art Book",
+        "title": "Brush Strokes",
+        "price": 18.99,
+        "img": "https://img.freepik.com/free-vector/abstract-business-book-cover-template_23-2148726776.jpg?t=st=1714992676~exp=1714996276~hmac=3b366517528ab72ead15a8e92e7261475da57d9af842417917f0171ef8b16c4c&w=740",
+        "category": "Art"
+    },
+    {
+        "id": 14,
+        "name": "Travel Book",
+        "title": "Wanderlust Chronicles",
+        "price": 11.49,
+        "img":"https://img.freepik.com/free-vector/abstract-business-book-cover-template_23-2148726776.jpg?t=st=1714992676~exp=1714996276~hmac=3b366517528ab72ead15a8e92e7261475da57d9af842417917f0171ef8b16c4c&w=740",
+        "category": "Travel"
+    },
+    {
+        "id": 15,
+        "name": "Business Book",
+        "title": "Success Blueprint",
+        "price": 16.99,
+        "img": "https://img.freepik.com/free-vector/abstract-business-book-cover-template_23-2148726776.jpg?t=st=1714992676~exp=1714996276~hmac=3b366517528ab72ead15a8e92e7261475da57d9af842417917f0171ef8b16c4c&w=740",
+        "category": "Business"
+    },
+    {
+        "id": 16,
+        "name": "Science Book",
+        "title": "Unraveling the Universe",
+        "price": 13.49,
+        "img": "https://img.freepik.com/free-vector/abstract-business-book-cover-template_23-2148726776.jpg?t=st=1714992676~exp=1714996276~hmac=3b366517528ab72ead15a8e92e7261475da57d9af842417917f0171ef8b16c4c&w=740",
+        "category": "Science"
+    },
+    {
+        "id": 17,
+        "name": "Technology Book",
+        "title": "Digital Revolution",
+        "price": 17.49,
+        "img": "https://img.freepik.com/free-vector/abstract-business-book-cover-template_23-2148726776.jpg?t=st=1714992676~exp=1714996276~hmac=3b366517528ab72ead15a8e92e7261475da57d9af842417917f0171ef8b16c4c&w=740",
+        "category": "Technology"
+    },
+    {
+        "id": 18,
+        "name": "Health Book",
+        "title": "Holistic Living",
+        "price": 12.99,
+        "img": "https://img.freepik.com/free-vector/abstract-business-book-cover-template_23-2148726776.jpg?t=st=1714992676~exp=1714996276~hmac=3b366517528ab72ead15a8e92e7261475da57d9af842417917f0171ef8b16c4c&w=740",
+        "category": "Health"
+    },
+    {
+        "id": 19,
+        "name": "Fitness Book",
+        "title": "Fit for Life",
+        "price": 9.99,
+        "img": "https://img.freepik.com/free-vector/abstract-business-book-cover-template_23-2148726776.jpg?t=st=1714992676~exp=1714996276~hmac=3b366517528ab72ead15a8e92e7261475da57d9af842417917f0171ef8b16c4c&w=740",
+        "category": "Fitness"
+    },
+    {
+        "id": 20,
+        "name": "Education Book",
+        "title": "Knowledge Quest",
+        "price": 11.99,
+        "img": "https://img.freepik.com/free-vector/abstract-business-book-cover-template_23-2148726776.jpg?t=st=1714992676~exp=1714996276~hmac=3b366517528ab72ead15a8e92e7261475da57d9af842417917f0171ef8b16c4c&w=740",
+        "category": "Education"
+    }
+]
